@@ -7,17 +7,19 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background-color: black;
 }
 main{
     height: 100vh;
     position: relative;
-    background-color: blueviolet;
+}
+body{
+    background: url('../imagens/fundomadeira.jpg') no-repeat top center;
+    background-size: cover;
 }
 section#telefone{
     height: 500px;
-    width: 500px;
-    background: url('../imagens/');
+    width: 300px;
+    background-color: beige;
     position:absolute;
     top: 50%;
     left: 50%;
