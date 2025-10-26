@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0PX;
+    padding: 0px;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+main{
+    height: 100vh;
+    position: relative;
+    background-color: blueviolet;
+}
+section#telefone{
+    height: 500px;
+    width: 500px;
+    background: url('../imagens/');
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
